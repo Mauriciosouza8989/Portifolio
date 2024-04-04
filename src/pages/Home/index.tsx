@@ -5,6 +5,8 @@ import { DiBootstrap, DiCss3, DiHtml5, DiReact, DiSqllite, DiGithubBadge } from 
 import { BiLogoJavascript, BiLogoNodejs, BiLogoTypescript, BiLogoLinkedinSquare, BiLogoWhatsapp } from "react-icons/bi";
 import { SiSqlite } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
+import imgBro from "/src/assets/bro.svg"
+
 const projects = [
   {
     id: 1,
@@ -50,7 +52,7 @@ export  function Home() {
             Atualmente estou cursando o programa Full Stack Python na EBAC – Escola Britânica de Artes Criativas e Tecnologia, com previsão de término em 10/2024. Sou um profissional com um perfil voltado para resolução de problemas, demonstrando um espírito colaborativo e adaptabilidade em ambientes dinâmicos. Além disso, trago uma abordagem educada e respeitosa no trabalho, acreditando firmemente na importância de tratar todos com consideração e profissionalismo.
           </p>
         </div>
-        <img className="floating headerImage" src="/src/assets/bro.svg" />
+        <img className="floating headerImage" src={imgBro} />
         <img className="arrow" src="https://i.ibb.co/H24QqBD/Graphic-2.png" alt="" />
       </Section>
       <Section id="about" className="even">
